@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #07000076;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #001f37;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#assinatura {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-info h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-info h4 {
+    margin: 0 0 10px;
+    color: #666;
+    font-weight: normal;
+}
+
+.card-info p {
+    color: #777;
+    font-size: 0.9em;
+}
+
+#loading {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 50px;
+}
